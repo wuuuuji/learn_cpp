@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ch01"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex01">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex01/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getinfo">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/getinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 getinfo"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getinfo/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/getinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 getinfo/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carrots">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/carrots.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 carrots"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carrots/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/carrots.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 carrots/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/convert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 convert"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/convert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 convert/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex02">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex02"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex02/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex02/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex03">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex03"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex03/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex03/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex04">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex04"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex04/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex04/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myfirst">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/myfirst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 myfirst"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myfirst/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/myfirst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 myfirst/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex05">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex05"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex05/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex05/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex06">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex06.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex06"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex06/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex06.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex06/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex07">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex07.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex07"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex07/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ex07.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex07/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ourfunc">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ourfunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ourfunc"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ourfunc/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/ourfunc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ourfunc/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqrt">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/sqrt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqrt"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqrt/fast">
+				<Option output="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/sqrt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqrt/fast"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/learnc++/c++_primer_plus/ch02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/MinGW/bin/mingw32-make.exe -f &quot;D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/carrots.cpp">
+			<Option target="carrots"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/convert.cpp">
+			<Option target="convert"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex01.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex02.cpp">
+			<Option target="ex02"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex03.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex04.cpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex05.cpp">
+			<Option target="ex05"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex06.cpp">
+			<Option target="ex06"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ex07.cpp">
+			<Option target="ex07"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/getinfo.cpp">
+			<Option target="getinfo"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/myfirst.cpp">
+			<Option target="myfirst"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/ourfunc.cpp">
+			<Option target="ourfunc"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/sqrt.cpp">
+			<Option target="sqrt"/>
+		</Unit>
+		<Unit filename="D:/learnc++/c++_primer_plus/ch02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

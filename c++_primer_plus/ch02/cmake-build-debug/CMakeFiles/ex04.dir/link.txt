@@ -1,0 +1,3 @@
+"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ex04.dir/objects.a
+E:\MinGW\MinGW\bin\ar.exe cr CMakeFiles\ex04.dir/objects.a @CMakeFiles\ex04.dir\objects1.rsp
+E:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ex04.dir/objects.a -Wl,--no-whole-archive -o ex04.exe -Wl,--out-implib,libex04.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ex04.dir\linklibs.rsp

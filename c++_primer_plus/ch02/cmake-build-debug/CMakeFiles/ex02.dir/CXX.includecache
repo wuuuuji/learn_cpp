@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/learnc++/c++_primer_plus/ch02/ex02.cpp
+iostream
+-
+
+D:/learnc++/c++_primer_plus/ch02/ex03.cpp
+

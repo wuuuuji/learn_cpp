@@ -1,0 +1,15 @@
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex01.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/getinfo.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/carrots.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/convert.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex02.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex03.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex04.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/myfirst.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex05.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex06.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ex07.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/ourfunc.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/sqrt.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/learnc++/c++_primer_plus/ch02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

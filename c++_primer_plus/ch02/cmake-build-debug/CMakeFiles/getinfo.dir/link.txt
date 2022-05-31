@@ -1,0 +1,3 @@
+"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\getinfo.dir/objects.a
+E:\MinGW\MinGW\bin\ar.exe cr CMakeFiles\getinfo.dir/objects.a @CMakeFiles\getinfo.dir\objects1.rsp
+E:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\getinfo.dir/objects.a -Wl,--no-whole-archive -o getinfo.exe -Wl,--out-implib,libgetinfo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\getinfo.dir\linklibs.rsp

@@ -1,0 +1,6 @@
+"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\learnc++\c++_primer_plus\ch03
+    -- src/limits.cpp will be compiled to bin/limits
+    -- src/main.cpp will be compiled to bin/main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/learnc++/c++_primer_plus/ch03/cmake-build-debug

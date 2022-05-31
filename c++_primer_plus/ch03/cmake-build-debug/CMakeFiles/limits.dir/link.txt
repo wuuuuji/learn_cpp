@@ -1,0 +1,3 @@
+"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\limits.dir/objects.a
+E:\MinGW\MinGW\bin\ar.exe cr CMakeFiles\limits.dir/objects.a @CMakeFiles\limits.dir\objects1.rsp
+E:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\limits.dir/objects.a -Wl,--no-whole-archive -o limits.exe -Wl,--out-implib,liblimits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\limits.dir\linklibs.rsp

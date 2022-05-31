@@ -1,0 +1,17 @@
+"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\learnc++\c++_primer_plus\ch02
+    -- src/carrots.cpp will be compiled to bin/carrots
+    -- src/convert.cpp will be compiled to bin/convert
+    -- src/ex01.cpp will be compiled to bin/ex01
+    -- src/ex02.cpp will be compiled to bin/ex02
+    -- src/ex03.cpp will be compiled to bin/ex03
+    -- src/ex04.cpp will be compiled to bin/ex04
+    -- src/ex05.cpp will be compiled to bin/ex05
+    -- src/ex06.cpp will be compiled to bin/ex06
+    -- src/ex07.cpp will be compiled to bin/ex07
+    -- src/getinfo.cpp will be compiled to bin/getinfo
+    -- src/myfirst.cpp will be compiled to bin/myfirst
+    -- src/ourfunc.cpp will be compiled to bin/ourfunc
+    -- src/sqrt.cpp will be compiled to bin/sqrt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/learnc++/c++_primer_plus/ch02/cmake-build-debug
