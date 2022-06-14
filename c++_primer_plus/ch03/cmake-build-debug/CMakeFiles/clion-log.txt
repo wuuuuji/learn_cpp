@@ -1,5 +1,10 @@
 "D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\learnc++\c++_primer_plus\ch03
-    -- src/limits.cpp will be compiled to bin/limits
+    -- src/1_limits.cpp will be compiled to bin/1_limits
+    -- src/2_exceed.cpp will be compiled to bin/2_exceed
+    -- src/3_hexoct.cpp will be compiled to bin/3_hexoct
+    -- src/4_hexoct2.cpp will be compiled to bin/4_hexoct2
+    -- src/5_chartype.cpp will be compiled to bin/5_chartype
+    -- src/6_morechar.cpp will be compiled to bin/6_morechar
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/learnc++/c++_primer_plus/ch03/cmake-build-debug
