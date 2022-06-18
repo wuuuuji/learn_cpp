@@ -68,15 +68,15 @@ include CMakeFiles/sqrt.dir/flags.make
 CMakeFiles/sqrt.dir/sqrt.cpp.obj: CMakeFiles/sqrt.dir/flags.make
 CMakeFiles/sqrt.dir/sqrt.cpp.obj: ../sqrt.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sqrt.dir/sqrt.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sqrt.dir\sqrt.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\sqrt.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sqrt.dir\sqrt.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\sqrt.cpp
 
 CMakeFiles/sqrt.dir/sqrt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sqrt.dir/sqrt.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\sqrt.cpp > CMakeFiles\sqrt.dir\sqrt.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\sqrt.cpp > CMakeFiles\sqrt.dir\sqrt.cpp.i
 
 CMakeFiles/sqrt.dir/sqrt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sqrt.dir/sqrt.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\sqrt.cpp -o CMakeFiles\sqrt.dir\sqrt.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\sqrt.cpp -o CMakeFiles\sqrt.dir\sqrt.cpp.s
 
 # Object files for target sqrt
 sqrt_OBJECTS = \

@@ -68,15 +68,15 @@ include CMakeFiles/ourfunc.dir/flags.make
 CMakeFiles/ourfunc.dir/ourfunc.cpp.obj: CMakeFiles/ourfunc.dir/flags.make
 CMakeFiles/ourfunc.dir/ourfunc.cpp.obj: ../ourfunc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ourfunc.dir/ourfunc.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ourfunc.dir\ourfunc.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ourfunc.dir\ourfunc.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp
 
 CMakeFiles/ourfunc.dir/ourfunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ourfunc.dir/ourfunc.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp > CMakeFiles\ourfunc.dir\ourfunc.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp > CMakeFiles\ourfunc.dir\ourfunc.cpp.i
 
 CMakeFiles/ourfunc.dir/ourfunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ourfunc.dir/ourfunc.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp -o CMakeFiles\ourfunc.dir\ourfunc.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\ourfunc.cpp -o CMakeFiles\ourfunc.dir\ourfunc.cpp.s
 
 # Object files for target ourfunc
 ourfunc_OBJECTS = \

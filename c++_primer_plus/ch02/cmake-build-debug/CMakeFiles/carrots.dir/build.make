@@ -68,15 +68,15 @@ include CMakeFiles/carrots.dir/flags.make
 CMakeFiles/carrots.dir/carrots.cpp.obj: CMakeFiles/carrots.dir/flags.make
 CMakeFiles/carrots.dir/carrots.cpp.obj: ../carrots.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/carrots.dir/carrots.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\carrots.dir\carrots.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\carrots.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\carrots.dir\carrots.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\carrots.cpp
 
 CMakeFiles/carrots.dir/carrots.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carrots.dir/carrots.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\carrots.cpp > CMakeFiles\carrots.dir\carrots.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\carrots.cpp > CMakeFiles\carrots.dir\carrots.cpp.i
 
 CMakeFiles/carrots.dir/carrots.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carrots.dir/carrots.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\carrots.cpp -o CMakeFiles\carrots.dir\carrots.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\carrots.cpp -o CMakeFiles\carrots.dir\carrots.cpp.s
 
 # Object files for target carrots
 carrots_OBJECTS = \

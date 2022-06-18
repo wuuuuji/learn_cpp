@@ -68,15 +68,15 @@ include CMakeFiles/convert.dir/flags.make
 CMakeFiles/convert.dir/convert.cpp.obj: CMakeFiles/convert.dir/flags.make
 CMakeFiles/convert.dir/convert.cpp.obj: ../convert.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/convert.dir/convert.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convert.dir\convert.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\convert.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convert.dir\convert.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\convert.cpp
 
 CMakeFiles/convert.dir/convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert.dir/convert.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\convert.cpp > CMakeFiles\convert.dir\convert.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\convert.cpp > CMakeFiles\convert.dir\convert.cpp.i
 
 CMakeFiles/convert.dir/convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert.dir/convert.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\convert.cpp -o CMakeFiles\convert.dir\convert.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\convert.cpp -o CMakeFiles\convert.dir\convert.cpp.s
 
 # Object files for target convert
 convert_OBJECTS = \

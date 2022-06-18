@@ -1,3 +1,3 @@
 "D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\myfirst.dir/objects.a
-E:\MinGW\MinGW\bin\ar.exe cr CMakeFiles\myfirst.dir/objects.a @CMakeFiles\myfirst.dir\objects1.rsp
-E:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\myfirst.dir/objects.a -Wl,--no-whole-archive -o myfirst.exe -Wl,--out-implib,libmyfirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\myfirst.dir\linklibs.rsp
+D:\mingw64\bin\ar.exe cr CMakeFiles\myfirst.dir/objects.a @CMakeFiles\myfirst.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\myfirst.dir/objects.a -Wl,--no-whole-archive -o myfirst.exe -Wl,--out-implib,libmyfirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\myfirst.dir\linklibs.rsp

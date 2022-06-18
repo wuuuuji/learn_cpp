@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = D:\learnc++\c++_primer_plus\ch03\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -83,6 +73,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\IDEA\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,17 +129,30 @@ depend:
 .PHONY : 1_limits/fast
 
 #=============================================================================
-# Target rules for targets named 2_exceed
+# Target rules for targets named 10_arith
 
 # Build rule for target.
-2_exceed: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_exceed
-.PHONY : 2_exceed
+10_arith: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10_arith
+.PHONY : 10_arith
 
 # fast build rule for target.
-2_exceed/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_exceed.dir\build.make CMakeFiles/2_exceed.dir/build
-.PHONY : 2_exceed/fast
+10_arith/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_arith.dir\build.make CMakeFiles/10_arith.dir/build
+.PHONY : 10_arith/fast
+
+#=============================================================================
+# Target rules for targets named 8_floatnum
+
+# Build rule for target.
+8_floatnum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8_floatnum
+.PHONY : 8_floatnum
+
+# fast build rule for target.
+8_floatnum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/build
+.PHONY : 8_floatnum/fast
 
 #=============================================================================
 # Target rules for targets named 3_hexoct
@@ -153,6 +166,58 @@ depend:
 3_hexoct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_hexoct.dir\build.make CMakeFiles/3_hexoct.dir/build
 .PHONY : 3_hexoct/fast
+
+#=============================================================================
+# Target rules for targets named 11.divide
+
+# Build rule for target.
+11.divide: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11.divide
+.PHONY : 11.divide
+
+# fast build rule for target.
+11.divide/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.divide.dir\build.make CMakeFiles/11.divide.dir/build
+.PHONY : 11.divide/fast
+
+#=============================================================================
+# Target rules for targets named 12_modulus
+
+# Build rule for target.
+12_modulus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12_modulus
+.PHONY : 12_modulus
+
+# fast build rule for target.
+12_modulus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_modulus.dir\build.make CMakeFiles/12_modulus.dir/build
+.PHONY : 12_modulus/fast
+
+#=============================================================================
+# Target rules for targets named 13_assign
+
+# Build rule for target.
+13_assign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13_assign
+.PHONY : 13_assign
+
+# fast build rule for target.
+13_assign/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_assign.dir\build.make CMakeFiles/13_assign.dir/build
+.PHONY : 13_assign/fast
+
+#=============================================================================
+# Target rules for targets named 2_exceed
+
+# Build rule for target.
+2_exceed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_exceed
+.PHONY : 2_exceed
+
+# fast build rule for target.
+2_exceed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_exceed.dir\build.make CMakeFiles/2_exceed.dir/build
+.PHONY : 2_exceed/fast
 
 #=============================================================================
 # Target rules for targets named 5_chartype
@@ -192,6 +257,128 @@ depend:
 6_morechar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_morechar.dir\build.make CMakeFiles/6_morechar.dir/build
 .PHONY : 6_morechar/fast
+
+#=============================================================================
+# Target rules for targets named 7_bondini
+
+# Build rule for target.
+7_bondini: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7_bondini
+.PHONY : 7_bondini
+
+# fast build rule for target.
+7_bondini/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/build
+.PHONY : 7_bondini/fast
+
+#=============================================================================
+# Target rules for targets named 9_fltadd
+
+# Build rule for target.
+9_fltadd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 9_fltadd
+.PHONY : 9_fltadd
+
+# fast build rule for target.
+9_fltadd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/build
+.PHONY : 9_fltadd/fast
+
+10_arith.obj: 10_arith.cpp.obj
+.PHONY : 10_arith.obj
+
+# target to build an object file
+10_arith.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_arith.dir\build.make CMakeFiles/10_arith.dir/10_arith.cpp.obj
+.PHONY : 10_arith.cpp.obj
+
+10_arith.i: 10_arith.cpp.i
+.PHONY : 10_arith.i
+
+# target to preprocess a source file
+10_arith.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_arith.dir\build.make CMakeFiles/10_arith.dir/10_arith.cpp.i
+.PHONY : 10_arith.cpp.i
+
+10_arith.s: 10_arith.cpp.s
+.PHONY : 10_arith.s
+
+# target to generate assembly for a file
+10_arith.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_arith.dir\build.make CMakeFiles/10_arith.dir/10_arith.cpp.s
+.PHONY : 10_arith.cpp.s
+
+11.divide.obj: 11.divide.cpp.obj
+.PHONY : 11.divide.obj
+
+# target to build an object file
+11.divide.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.divide.dir\build.make CMakeFiles/11.divide.dir/11.divide.cpp.obj
+.PHONY : 11.divide.cpp.obj
+
+11.divide.i: 11.divide.cpp.i
+.PHONY : 11.divide.i
+
+# target to preprocess a source file
+11.divide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.divide.dir\build.make CMakeFiles/11.divide.dir/11.divide.cpp.i
+.PHONY : 11.divide.cpp.i
+
+11.divide.s: 11.divide.cpp.s
+.PHONY : 11.divide.s
+
+# target to generate assembly for a file
+11.divide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.divide.dir\build.make CMakeFiles/11.divide.dir/11.divide.cpp.s
+.PHONY : 11.divide.cpp.s
+
+12_modulus.obj: 12_modulus.cpp.obj
+.PHONY : 12_modulus.obj
+
+# target to build an object file
+12_modulus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_modulus.dir\build.make CMakeFiles/12_modulus.dir/12_modulus.cpp.obj
+.PHONY : 12_modulus.cpp.obj
+
+12_modulus.i: 12_modulus.cpp.i
+.PHONY : 12_modulus.i
+
+# target to preprocess a source file
+12_modulus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_modulus.dir\build.make CMakeFiles/12_modulus.dir/12_modulus.cpp.i
+.PHONY : 12_modulus.cpp.i
+
+12_modulus.s: 12_modulus.cpp.s
+.PHONY : 12_modulus.s
+
+# target to generate assembly for a file
+12_modulus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_modulus.dir\build.make CMakeFiles/12_modulus.dir/12_modulus.cpp.s
+.PHONY : 12_modulus.cpp.s
+
+13_assign.obj: 13_assign.cpp.obj
+.PHONY : 13_assign.obj
+
+# target to build an object file
+13_assign.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_assign.dir\build.make CMakeFiles/13_assign.dir/13_assign.cpp.obj
+.PHONY : 13_assign.cpp.obj
+
+13_assign.i: 13_assign.cpp.i
+.PHONY : 13_assign.i
+
+# target to preprocess a source file
+13_assign.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_assign.dir\build.make CMakeFiles/13_assign.dir/13_assign.cpp.i
+.PHONY : 13_assign.cpp.i
+
+13_assign.s: 13_assign.cpp.s
+.PHONY : 13_assign.s
+
+# target to generate assembly for a file
+13_assign.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_assign.dir\build.make CMakeFiles/13_assign.dir/13_assign.cpp.s
+.PHONY : 13_assign.cpp.s
 
 1_limits.obj: 1_limits.cpp.obj
 .PHONY : 1_limits.obj
@@ -337,6 +524,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_morechar.dir\build.make CMakeFiles/6_morechar.dir/6_morechar.cpp.s
 .PHONY : 6_morechar.cpp.s
 
+7_bondini.obj: 7_bondini.cpp.obj
+.PHONY : 7_bondini.obj
+
+# target to build an object file
+7_bondini.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/7_bondini.cpp.obj
+.PHONY : 7_bondini.cpp.obj
+
+7_bondini.i: 7_bondini.cpp.i
+.PHONY : 7_bondini.i
+
+# target to preprocess a source file
+7_bondini.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/7_bondini.cpp.i
+.PHONY : 7_bondini.cpp.i
+
+7_bondini.s: 7_bondini.cpp.s
+.PHONY : 7_bondini.s
+
+# target to generate assembly for a file
+7_bondini.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/7_bondini.cpp.s
+.PHONY : 7_bondini.cpp.s
+
+8_floatnum.obj: 8_floatnum.cpp.obj
+.PHONY : 8_floatnum.obj
+
+# target to build an object file
+8_floatnum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/8_floatnum.cpp.obj
+.PHONY : 8_floatnum.cpp.obj
+
+8_floatnum.i: 8_floatnum.cpp.i
+.PHONY : 8_floatnum.i
+
+# target to preprocess a source file
+8_floatnum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/8_floatnum.cpp.i
+.PHONY : 8_floatnum.cpp.i
+
+8_floatnum.s: 8_floatnum.cpp.s
+.PHONY : 8_floatnum.s
+
+# target to generate assembly for a file
+8_floatnum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/8_floatnum.cpp.s
+.PHONY : 8_floatnum.cpp.s
+
+9_fltadd.obj: 9_fltadd.cpp.obj
+.PHONY : 9_fltadd.obj
+
+# target to build an object file
+9_fltadd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/9_fltadd.cpp.obj
+.PHONY : 9_fltadd.cpp.obj
+
+9_fltadd.i: 9_fltadd.cpp.i
+.PHONY : 9_fltadd.i
+
+# target to preprocess a source file
+9_fltadd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/9_fltadd.cpp.i
+.PHONY : 9_fltadd.cpp.i
+
+9_fltadd.s: 9_fltadd.cpp.s
+.PHONY : 9_fltadd.s
+
+# target to generate assembly for a file
+9_fltadd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/9_fltadd.cpp.s
+.PHONY : 9_fltadd.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -345,12 +604,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 10_arith
+	@echo ... 11.divide
+	@echo ... 12_modulus
+	@echo ... 13_assign
 	@echo ... 1_limits
 	@echo ... 2_exceed
 	@echo ... 3_hexoct
 	@echo ... 4_hexoct2
 	@echo ... 5_chartype
 	@echo ... 6_morechar
+	@echo ... 7_bondini
+	@echo ... 8_floatnum
+	@echo ... 9_fltadd
+	@echo ... 10_arith.obj
+	@echo ... 10_arith.i
+	@echo ... 10_arith.s
+	@echo ... 11.divide.obj
+	@echo ... 11.divide.i
+	@echo ... 11.divide.s
+	@echo ... 12_modulus.obj
+	@echo ... 12_modulus.i
+	@echo ... 12_modulus.s
+	@echo ... 13_assign.obj
+	@echo ... 13_assign.i
+	@echo ... 13_assign.s
 	@echo ... 1_limits.obj
 	@echo ... 1_limits.i
 	@echo ... 1_limits.s
@@ -369,6 +647,15 @@ help:
 	@echo ... 6_morechar.obj
 	@echo ... 6_morechar.i
 	@echo ... 6_morechar.s
+	@echo ... 7_bondini.obj
+	@echo ... 7_bondini.i
+	@echo ... 7_bondini.s
+	@echo ... 8_floatnum.obj
+	@echo ... 8_floatnum.i
+	@echo ... 8_floatnum.s
+	@echo ... 9_fltadd.obj
+	@echo ... 9_fltadd.i
+	@echo ... 9_fltadd.s
 .PHONY : help
 
 

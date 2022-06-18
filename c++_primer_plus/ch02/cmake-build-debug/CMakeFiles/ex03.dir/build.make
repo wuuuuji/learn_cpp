@@ -68,15 +68,15 @@ include CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/ex03.cpp.obj: CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/ex03.cpp.obj: ../ex03.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex03.dir/ex03.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex03.dir\ex03.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\ex03.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex03.dir\ex03.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\ex03.cpp
 
 CMakeFiles/ex03.dir/ex03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/ex03.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\ex03.cpp > CMakeFiles\ex03.dir\ex03.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\ex03.cpp > CMakeFiles\ex03.dir\ex03.cpp.i
 
 CMakeFiles/ex03.dir/ex03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/ex03.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\ex03.cpp -o CMakeFiles\ex03.dir\ex03.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\ex03.cpp -o CMakeFiles\ex03.dir\ex03.cpp.s
 
 # Object files for target ex03
 ex03_OBJECTS = \

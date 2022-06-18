@@ -68,15 +68,15 @@ include CMakeFiles/getinfo.dir/flags.make
 CMakeFiles/getinfo.dir/getinfo.cpp.obj: CMakeFiles/getinfo.dir/flags.make
 CMakeFiles/getinfo.dir/getinfo.cpp.obj: ../getinfo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\learnc++\c++_primer_plus\ch02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/getinfo.dir/getinfo.cpp.obj"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\getinfo.dir\getinfo.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\getinfo.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\getinfo.dir\getinfo.cpp.obj -c D:\learnc++\c++_primer_plus\ch02\getinfo.cpp
 
 CMakeFiles/getinfo.dir/getinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/getinfo.dir/getinfo.cpp.i"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\getinfo.cpp > CMakeFiles\getinfo.dir\getinfo.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\learnc++\c++_primer_plus\ch02\getinfo.cpp > CMakeFiles\getinfo.dir\getinfo.cpp.i
 
 CMakeFiles/getinfo.dir/getinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/getinfo.dir/getinfo.cpp.s"
-	E:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\getinfo.cpp -o CMakeFiles\getinfo.dir\getinfo.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\learnc++\c++_primer_plus\ch02\getinfo.cpp -o CMakeFiles\getinfo.dir\getinfo.cpp.s
 
 # Object files for target getinfo
 getinfo_OBJECTS = \
