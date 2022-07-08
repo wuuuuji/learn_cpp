@@ -207,6 +207,19 @@ depend:
 .PHONY : 13_assign/fast
 
 #=============================================================================
+# Target rules for targets named 14_typecast
+
+# Build rule for target.
+14_typecast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14_typecast
+.PHONY : 14_typecast
+
+# fast build rule for target.
+14_typecast/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/build
+.PHONY : 14_typecast/fast
+
+#=============================================================================
 # Target rules for targets named 2_exceed
 
 # Build rule for target.
@@ -283,6 +296,32 @@ depend:
 9_fltadd/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/build
 .PHONY : 9_fltadd/fast
+
+#=============================================================================
+# Target rules for targets named ex_1
+
+# Build rule for target.
+ex_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_1
+.PHONY : ex_1
+
+# fast build rule for target.
+ex_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/build
+.PHONY : ex_1/fast
+
+#=============================================================================
+# Target rules for targets named ex_2
+
+# Build rule for target.
+ex_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_2
+.PHONY : ex_2
+
+# fast build rule for target.
+ex_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/build
+.PHONY : ex_2/fast
 
 10_arith.obj: 10_arith.cpp.obj
 .PHONY : 10_arith.obj
@@ -379,6 +418,30 @@ depend:
 13_assign.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_assign.dir\build.make CMakeFiles/13_assign.dir/13_assign.cpp.s
 .PHONY : 13_assign.cpp.s
+
+14_typecast.obj: 14_typecast.cpp.obj
+.PHONY : 14_typecast.obj
+
+# target to build an object file
+14_typecast.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/14_typecast.cpp.obj
+.PHONY : 14_typecast.cpp.obj
+
+14_typecast.i: 14_typecast.cpp.i
+.PHONY : 14_typecast.i
+
+# target to preprocess a source file
+14_typecast.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/14_typecast.cpp.i
+.PHONY : 14_typecast.cpp.i
+
+14_typecast.s: 14_typecast.cpp.s
+.PHONY : 14_typecast.s
+
+# target to generate assembly for a file
+14_typecast.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/14_typecast.cpp.s
+.PHONY : 14_typecast.cpp.s
 
 1_limits.obj: 1_limits.cpp.obj
 .PHONY : 1_limits.obj
@@ -596,6 +659,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/9_fltadd.cpp.s
 .PHONY : 9_fltadd.cpp.s
 
+ex_1.obj: ex_1.cpp.obj
+.PHONY : ex_1.obj
+
+# target to build an object file
+ex_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/ex_1.cpp.obj
+.PHONY : ex_1.cpp.obj
+
+ex_1.i: ex_1.cpp.i
+.PHONY : ex_1.i
+
+# target to preprocess a source file
+ex_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/ex_1.cpp.i
+.PHONY : ex_1.cpp.i
+
+ex_1.s: ex_1.cpp.s
+.PHONY : ex_1.s
+
+# target to generate assembly for a file
+ex_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/ex_1.cpp.s
+.PHONY : ex_1.cpp.s
+
+ex_2.obj: ex_2.cpp.obj
+.PHONY : ex_2.obj
+
+# target to build an object file
+ex_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/ex_2.cpp.obj
+.PHONY : ex_2.cpp.obj
+
+ex_2.i: ex_2.cpp.i
+.PHONY : ex_2.i
+
+# target to preprocess a source file
+ex_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/ex_2.cpp.i
+.PHONY : ex_2.cpp.i
+
+ex_2.s: ex_2.cpp.s
+.PHONY : ex_2.s
+
+# target to generate assembly for a file
+ex_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/ex_2.cpp.s
+.PHONY : ex_2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -608,6 +719,7 @@ help:
 	@echo ... 11.divide
 	@echo ... 12_modulus
 	@echo ... 13_assign
+	@echo ... 14_typecast
 	@echo ... 1_limits
 	@echo ... 2_exceed
 	@echo ... 3_hexoct
@@ -617,6 +729,8 @@ help:
 	@echo ... 7_bondini
 	@echo ... 8_floatnum
 	@echo ... 9_fltadd
+	@echo ... ex_1
+	@echo ... ex_2
 	@echo ... 10_arith.obj
 	@echo ... 10_arith.i
 	@echo ... 10_arith.s
@@ -629,6 +743,9 @@ help:
 	@echo ... 13_assign.obj
 	@echo ... 13_assign.i
 	@echo ... 13_assign.s
+	@echo ... 14_typecast.obj
+	@echo ... 14_typecast.i
+	@echo ... 14_typecast.s
 	@echo ... 1_limits.obj
 	@echo ... 1_limits.i
 	@echo ... 1_limits.s
@@ -656,6 +773,12 @@ help:
 	@echo ... 9_fltadd.obj
 	@echo ... 9_fltadd.i
 	@echo ... 9_fltadd.s
+	@echo ... ex_1.obj
+	@echo ... ex_1.i
+	@echo ... ex_1.s
+	@echo ... ex_2.obj
+	@echo ... ex_2.i
+	@echo ... ex_2.s
 .PHONY : help
 
 

@@ -69,12 +69,15 @@ all: CMakeFiles/3_hexoct.dir/all
 all: CMakeFiles/11.divide.dir/all
 all: CMakeFiles/12_modulus.dir/all
 all: CMakeFiles/13_assign.dir/all
+all: CMakeFiles/14_typecast.dir/all
 all: CMakeFiles/2_exceed.dir/all
 all: CMakeFiles/5_chartype.dir/all
 all: CMakeFiles/4_hexoct2.dir/all
 all: CMakeFiles/6_morechar.dir/all
 all: CMakeFiles/7_bondini.dir/all
 all: CMakeFiles/9_fltadd.dir/all
+all: CMakeFiles/ex_1.dir/all
+all: CMakeFiles/ex_2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -89,12 +92,15 @@ clean: CMakeFiles/3_hexoct.dir/clean
 clean: CMakeFiles/11.divide.dir/clean
 clean: CMakeFiles/12_modulus.dir/clean
 clean: CMakeFiles/13_assign.dir/clean
+clean: CMakeFiles/14_typecast.dir/clean
 clean: CMakeFiles/2_exceed.dir/clean
 clean: CMakeFiles/5_chartype.dir/clean
 clean: CMakeFiles/4_hexoct2.dir/clean
 clean: CMakeFiles/6_morechar.dir/clean
 clean: CMakeFiles/7_bondini.dir/clean
 clean: CMakeFiles/9_fltadd.dir/clean
+clean: CMakeFiles/ex_1.dir/clean
+clean: CMakeFiles/ex_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -104,7 +110,7 @@ clean: CMakeFiles/9_fltadd.dir/clean
 CMakeFiles/1_limits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_limits.dir\build.make CMakeFiles/1_limits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_limits.dir\build.make CMakeFiles/1_limits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 1_limits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 1_limits"
 .PHONY : CMakeFiles/1_limits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,7 +162,7 @@ CMakeFiles/10_arith.dir/clean:
 CMakeFiles/8_floatnum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8_floatnum.dir\build.make CMakeFiles/8_floatnum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 8_floatnum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 8_floatnum"
 .PHONY : CMakeFiles/8_floatnum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +188,7 @@ CMakeFiles/8_floatnum.dir/clean:
 CMakeFiles/3_hexoct.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_hexoct.dir\build.make CMakeFiles/3_hexoct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_hexoct.dir\build.make CMakeFiles/3_hexoct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 3_hexoct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 3_hexoct"
 .PHONY : CMakeFiles/3_hexoct.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,13 +286,39 @@ CMakeFiles/13_assign.dir/clean:
 .PHONY : CMakeFiles/13_assign.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/14_typecast.dir
+
+# All Build rule for target.
+CMakeFiles/14_typecast.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 14_typecast"
+.PHONY : CMakeFiles/14_typecast.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/14_typecast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/14_typecast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/14_typecast.dir/rule
+
+# Convenience name for target.
+14_typecast: CMakeFiles/14_typecast.dir/rule
+.PHONY : 14_typecast
+
+# clean rule for target.
+CMakeFiles/14_typecast.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_typecast.dir\build.make CMakeFiles/14_typecast.dir/clean
+.PHONY : CMakeFiles/14_typecast.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2_exceed.dir
 
 # All Build rule for target.
 CMakeFiles/2_exceed.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_exceed.dir\build.make CMakeFiles/2_exceed.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_exceed.dir\build.make CMakeFiles/2_exceed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2_exceed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2_exceed"
 .PHONY : CMakeFiles/2_exceed.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +344,7 @@ CMakeFiles/2_exceed.dir/clean:
 CMakeFiles/5_chartype.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5_chartype.dir\build.make CMakeFiles/5_chartype.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5_chartype.dir\build.make CMakeFiles/5_chartype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 5_chartype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 5_chartype"
 .PHONY : CMakeFiles/5_chartype.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +370,7 @@ CMakeFiles/5_chartype.dir/clean:
 CMakeFiles/4_hexoct2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_hexoct2.dir\build.make CMakeFiles/4_hexoct2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_hexoct2.dir\build.make CMakeFiles/4_hexoct2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 4_hexoct2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 4_hexoct2"
 .PHONY : CMakeFiles/4_hexoct2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +396,7 @@ CMakeFiles/4_hexoct2.dir/clean:
 CMakeFiles/6_morechar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_morechar.dir\build.make CMakeFiles/6_morechar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_morechar.dir\build.make CMakeFiles/6_morechar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 6_morechar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 6_morechar"
 .PHONY : CMakeFiles/6_morechar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +422,7 @@ CMakeFiles/6_morechar.dir/clean:
 CMakeFiles/7_bondini.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_bondini.dir\build.make CMakeFiles/7_bondini.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 7_bondini"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 7_bondini"
 .PHONY : CMakeFiles/7_bondini.dir/all
 
 # Build rule for subdir invocation for target.
@@ -416,7 +448,7 @@ CMakeFiles/7_bondini.dir/clean:
 CMakeFiles/9_fltadd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 9_fltadd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 9_fltadd"
 .PHONY : CMakeFiles/9_fltadd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -434,6 +466,58 @@ CMakeFiles/9_fltadd.dir/rule: cmake_check_build_system
 CMakeFiles/9_fltadd.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9_fltadd.dir\build.make CMakeFiles/9_fltadd.dir/clean
 .PHONY : CMakeFiles/9_fltadd.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex_1.dir
+
+# All Build rule for target.
+CMakeFiles/ex_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target ex_1"
+.PHONY : CMakeFiles/ex_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_1.dir/rule
+
+# Convenience name for target.
+ex_1: CMakeFiles/ex_1.dir/rule
+.PHONY : ex_1
+
+# clean rule for target.
+CMakeFiles/ex_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_1.dir\build.make CMakeFiles/ex_1.dir/clean
+.PHONY : CMakeFiles/ex_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex_2.dir
+
+# All Build rule for target.
+CMakeFiles/ex_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target ex_2"
+.PHONY : CMakeFiles/ex_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_2.dir/rule
+
+# Convenience name for target.
+ex_2: CMakeFiles/ex_2.dir/rule
+.PHONY : ex_2
+
+# clean rule for target.
+CMakeFiles/ex_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/clean
+.PHONY : CMakeFiles/ex_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

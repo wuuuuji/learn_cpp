@@ -3,6 +3,7 @@
     -- src/11.divide.cpp will be compiled to bin/11.divide
     -- src/12_modulus.cpp will be compiled to bin/12_modulus
     -- src/13_assign.cpp will be compiled to bin/13_assign
+    -- src/14_typecast.cpp will be compiled to bin/14_typecast
     -- src/1_limits.cpp will be compiled to bin/1_limits
     -- src/2_exceed.cpp will be compiled to bin/2_exceed
     -- src/3_hexoct.cpp will be compiled to bin/3_hexoct
@@ -12,6 +13,8 @@
     -- src/7_bondini.cpp will be compiled to bin/7_bondini
     -- src/8_floatnum.cpp will be compiled to bin/8_floatnum
     -- src/9_fltadd.cpp will be compiled to bin/9_fltadd
+    -- src/ex_1.cpp will be compiled to bin/ex_1
+    -- src/ex_2.cpp will be compiled to bin/ex_2
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/learnc++/c++_primer_plus/ch03/cmake-build-debug
