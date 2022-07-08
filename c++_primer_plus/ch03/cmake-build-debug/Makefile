@@ -375,6 +375,19 @@ ex_6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/build
 .PHONY : ex_6/fast
 
+#=============================================================================
+# Target rules for targets named ex_7
+
+# Build rule for target.
+ex_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_7
+.PHONY : ex_7
+
+# fast build rule for target.
+ex_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_7.dir\build.make CMakeFiles/ex_7.dir/build
+.PHONY : ex_7/fast
+
 10_arith.obj: 10_arith.cpp.obj
 .PHONY : 10_arith.obj
 
@@ -855,6 +868,30 @@ ex_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/ex_6.cpp.s
 .PHONY : ex_6.cpp.s
 
+ex_7.obj: ex_7.cpp.obj
+.PHONY : ex_7.obj
+
+# target to build an object file
+ex_7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_7.dir\build.make CMakeFiles/ex_7.dir/ex_7.cpp.obj
+.PHONY : ex_7.cpp.obj
+
+ex_7.i: ex_7.cpp.i
+.PHONY : ex_7.i
+
+# target to preprocess a source file
+ex_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_7.dir\build.make CMakeFiles/ex_7.dir/ex_7.cpp.i
+.PHONY : ex_7.cpp.i
+
+ex_7.s: ex_7.cpp.s
+.PHONY : ex_7.s
+
+# target to generate assembly for a file
+ex_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_7.dir\build.make CMakeFiles/ex_7.dir/ex_7.cpp.s
+.PHONY : ex_7.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -883,6 +920,7 @@ help:
 	@echo ... ex_4
 	@echo ... ex_5
 	@echo ... ex_6
+	@echo ... ex_7
 	@echo ... 10_arith.obj
 	@echo ... 10_arith.i
 	@echo ... 10_arith.s
@@ -943,6 +981,9 @@ help:
 	@echo ... ex_6.obj
 	@echo ... ex_6.i
 	@echo ... ex_6.s
+	@echo ... ex_7.obj
+	@echo ... ex_7.i
+	@echo ... ex_7.s
 .PHONY : help
 
 

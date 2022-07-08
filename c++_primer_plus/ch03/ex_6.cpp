@@ -26,7 +26,7 @@ int main()
     cin>>distance_in_km;
     cout<<"Enter the fuel consume in litre: ";
     cin>>fuel_in_litre;
-    fuel_consume = (distance_in_km / fuel_in_litre)*100;
+    fuel_consume = (fuel_in_litre / distance_in_km)*100;
     cout<<"The fuel consume is "<<fuel_consume<<"L/100KM."<<endl;
     cin.get();
     cin.get();
