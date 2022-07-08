@@ -272,6 +272,19 @@ depend:
 .PHONY : 6_morechar/fast
 
 #=============================================================================
+# Target rules for targets named ex_5
+
+# Build rule for target.
+ex_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_5
+.PHONY : ex_5
+
+# fast build rule for target.
+ex_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/build
+.PHONY : ex_5/fast
+
+#=============================================================================
 # Target rules for targets named 7_bondini
 
 # Build rule for target.
@@ -322,6 +335,45 @@ ex_2: cmake_check_build_system
 ex_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/build
 .PHONY : ex_2/fast
+
+#=============================================================================
+# Target rules for targets named ex_3
+
+# Build rule for target.
+ex_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_3
+.PHONY : ex_3
+
+# fast build rule for target.
+ex_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/build
+.PHONY : ex_3/fast
+
+#=============================================================================
+# Target rules for targets named ex_4
+
+# Build rule for target.
+ex_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_4
+.PHONY : ex_4
+
+# fast build rule for target.
+ex_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/build
+.PHONY : ex_4/fast
+
+#=============================================================================
+# Target rules for targets named ex_6
+
+# Build rule for target.
+ex_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex_6
+.PHONY : ex_6
+
+# fast build rule for target.
+ex_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/build
+.PHONY : ex_6/fast
 
 10_arith.obj: 10_arith.cpp.obj
 .PHONY : 10_arith.obj
@@ -707,6 +759,102 @@ ex_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/ex_2.cpp.s
 .PHONY : ex_2.cpp.s
 
+ex_3.obj: ex_3.cpp.obj
+.PHONY : ex_3.obj
+
+# target to build an object file
+ex_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/ex_3.cpp.obj
+.PHONY : ex_3.cpp.obj
+
+ex_3.i: ex_3.cpp.i
+.PHONY : ex_3.i
+
+# target to preprocess a source file
+ex_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/ex_3.cpp.i
+.PHONY : ex_3.cpp.i
+
+ex_3.s: ex_3.cpp.s
+.PHONY : ex_3.s
+
+# target to generate assembly for a file
+ex_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/ex_3.cpp.s
+.PHONY : ex_3.cpp.s
+
+ex_4.obj: ex_4.cpp.obj
+.PHONY : ex_4.obj
+
+# target to build an object file
+ex_4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/ex_4.cpp.obj
+.PHONY : ex_4.cpp.obj
+
+ex_4.i: ex_4.cpp.i
+.PHONY : ex_4.i
+
+# target to preprocess a source file
+ex_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/ex_4.cpp.i
+.PHONY : ex_4.cpp.i
+
+ex_4.s: ex_4.cpp.s
+.PHONY : ex_4.s
+
+# target to generate assembly for a file
+ex_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/ex_4.cpp.s
+.PHONY : ex_4.cpp.s
+
+ex_5.obj: ex_5.cpp.obj
+.PHONY : ex_5.obj
+
+# target to build an object file
+ex_5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/ex_5.cpp.obj
+.PHONY : ex_5.cpp.obj
+
+ex_5.i: ex_5.cpp.i
+.PHONY : ex_5.i
+
+# target to preprocess a source file
+ex_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/ex_5.cpp.i
+.PHONY : ex_5.cpp.i
+
+ex_5.s: ex_5.cpp.s
+.PHONY : ex_5.s
+
+# target to generate assembly for a file
+ex_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/ex_5.cpp.s
+.PHONY : ex_5.cpp.s
+
+ex_6.obj: ex_6.cpp.obj
+.PHONY : ex_6.obj
+
+# target to build an object file
+ex_6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/ex_6.cpp.obj
+.PHONY : ex_6.cpp.obj
+
+ex_6.i: ex_6.cpp.i
+.PHONY : ex_6.i
+
+# target to preprocess a source file
+ex_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/ex_6.cpp.i
+.PHONY : ex_6.cpp.i
+
+ex_6.s: ex_6.cpp.s
+.PHONY : ex_6.s
+
+# target to generate assembly for a file
+ex_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/ex_6.cpp.s
+.PHONY : ex_6.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -731,6 +879,10 @@ help:
 	@echo ... 9_fltadd
 	@echo ... ex_1
 	@echo ... ex_2
+	@echo ... ex_3
+	@echo ... ex_4
+	@echo ... ex_5
+	@echo ... ex_6
 	@echo ... 10_arith.obj
 	@echo ... 10_arith.i
 	@echo ... 10_arith.s
@@ -779,6 +931,18 @@ help:
 	@echo ... ex_2.obj
 	@echo ... ex_2.i
 	@echo ... ex_2.s
+	@echo ... ex_3.obj
+	@echo ... ex_3.i
+	@echo ... ex_3.s
+	@echo ... ex_4.obj
+	@echo ... ex_4.i
+	@echo ... ex_4.s
+	@echo ... ex_5.obj
+	@echo ... ex_5.i
+	@echo ... ex_5.s
+	@echo ... ex_6.obj
+	@echo ... ex_6.i
+	@echo ... ex_6.s
 .PHONY : help
 
 

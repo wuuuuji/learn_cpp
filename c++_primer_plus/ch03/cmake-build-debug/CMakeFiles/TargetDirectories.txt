@@ -10,9 +10,13 @@ D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/2_exceed.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/5_chartype.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/4_hexoct2.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/6_morechar.dir
+D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_5.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/7_bondini.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/9_fltadd.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_1.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_2.dir
+D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_3.dir
+D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_4.dir
+D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/ex_6.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/learnc++/c++_primer_plus/ch03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

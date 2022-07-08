@@ -74,10 +74,14 @@ all: CMakeFiles/2_exceed.dir/all
 all: CMakeFiles/5_chartype.dir/all
 all: CMakeFiles/4_hexoct2.dir/all
 all: CMakeFiles/6_morechar.dir/all
+all: CMakeFiles/ex_5.dir/all
 all: CMakeFiles/7_bondini.dir/all
 all: CMakeFiles/9_fltadd.dir/all
 all: CMakeFiles/ex_1.dir/all
 all: CMakeFiles/ex_2.dir/all
+all: CMakeFiles/ex_3.dir/all
+all: CMakeFiles/ex_4.dir/all
+all: CMakeFiles/ex_6.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -97,10 +101,14 @@ clean: CMakeFiles/2_exceed.dir/clean
 clean: CMakeFiles/5_chartype.dir/clean
 clean: CMakeFiles/4_hexoct2.dir/clean
 clean: CMakeFiles/6_morechar.dir/clean
+clean: CMakeFiles/ex_5.dir/clean
 clean: CMakeFiles/7_bondini.dir/clean
 clean: CMakeFiles/9_fltadd.dir/clean
 clean: CMakeFiles/ex_1.dir/clean
 clean: CMakeFiles/ex_2.dir/clean
+clean: CMakeFiles/ex_3.dir/clean
+clean: CMakeFiles/ex_4.dir/clean
+clean: CMakeFiles/ex_6.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -416,6 +424,32 @@ CMakeFiles/6_morechar.dir/clean:
 .PHONY : CMakeFiles/6_morechar.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ex_5.dir
+
+# All Build rule for target.
+CMakeFiles/ex_5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target ex_5"
+.PHONY : CMakeFiles/ex_5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_5.dir/rule
+
+# Convenience name for target.
+ex_5: CMakeFiles/ex_5.dir/rule
+.PHONY : ex_5
+
+# clean rule for target.
+CMakeFiles/ex_5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_5.dir\build.make CMakeFiles/ex_5.dir/clean
+.PHONY : CMakeFiles/ex_5.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/7_bondini.dir
 
 # All Build rule for target.
@@ -518,6 +552,84 @@ ex_2: CMakeFiles/ex_2.dir/rule
 CMakeFiles/ex_2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_2.dir\build.make CMakeFiles/ex_2.dir/clean
 .PHONY : CMakeFiles/ex_2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex_3.dir
+
+# All Build rule for target.
+CMakeFiles/ex_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target ex_3"
+.PHONY : CMakeFiles/ex_3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_3.dir/rule
+
+# Convenience name for target.
+ex_3: CMakeFiles/ex_3.dir/rule
+.PHONY : ex_3
+
+# clean rule for target.
+CMakeFiles/ex_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_3.dir\build.make CMakeFiles/ex_3.dir/clean
+.PHONY : CMakeFiles/ex_3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex_4.dir
+
+# All Build rule for target.
+CMakeFiles/ex_4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target ex_4"
+.PHONY : CMakeFiles/ex_4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_4.dir/rule
+
+# Convenience name for target.
+ex_4: CMakeFiles/ex_4.dir/rule
+.PHONY : ex_4
+
+# clean rule for target.
+CMakeFiles/ex_4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_4.dir\build.make CMakeFiles/ex_4.dir/clean
+.PHONY : CMakeFiles/ex_4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex_6.dir
+
+# All Build rule for target.
+CMakeFiles/ex_6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target ex_6"
+.PHONY : CMakeFiles/ex_6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex_6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ex_6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\learnc++\c++_primer_plus\ch03\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ex_6.dir/rule
+
+# Convenience name for target.
+ex_6: CMakeFiles/ex_6.dir/rule
+.PHONY : ex_6
+
+# clean rule for target.
+CMakeFiles/ex_6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex_6.dir\build.make CMakeFiles/ex_6.dir/clean
+.PHONY : CMakeFiles/ex_6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -15,6 +15,10 @@
     -- src/9_fltadd.cpp will be compiled to bin/9_fltadd
     -- src/ex_1.cpp will be compiled to bin/ex_1
     -- src/ex_2.cpp will be compiled to bin/ex_2
+    -- src/ex_3.cpp will be compiled to bin/ex_3
+    -- src/ex_4.cpp will be compiled to bin/ex_4
+    -- src/ex_5.cpp will be compiled to bin/ex_5
+    -- src/ex_6.cpp will be compiled to bin/ex_6
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/learnc++/c++_primer_plus/ch03/cmake-build-debug
