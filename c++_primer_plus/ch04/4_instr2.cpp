@@ -2,19 +2,21 @@
 // Created by 84019 on 2022/7/8.
 //
 
-#include <iostream>
+# include <iostream>
 int main()
 {
     using namespace std;
-    const int Arsize = 20;  // 尺寸为20
-    char name[Arsize];
-    char dessert[Arsize];   // 甜点字符串
+    const int ArSize = 20;
+    char name[ArSize];
+    char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    cin >> name;
+    cin.getline(name,ArSize);
     cout << "Enter your favorite dessert:\n";
-    cin >> dessert;
+    cin.getline(dessert,ArSize);
     cout << "I have some delicious " << dessert;
     cout << " for you, " << name << ".\n";
+    cin.get();
+    cin.get();
     return 0;
 }

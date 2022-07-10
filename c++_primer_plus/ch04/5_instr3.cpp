@@ -6,15 +6,16 @@
 int main()
 {
     using namespace std;
-    const int Arsize = 20;  // 尺寸为20
-    char name[Arsize];
-    char dessert[Arsize];   // 甜点字符串
+    const int ArSize = 20;
+    char name[ArSize];
+    char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    cin >> name;
+    cin.get(name, ArSize).get(); // 读取字符串
     cout << "Enter your favorite dessert:\n";
-    cin >> dessert;
-    cout << "I have some delicious " << dessert;
+    cin.get(dessert, ArSize).get();
+    cout << "I have some delicious" << dessert;
     cout << " for you, " << name << ".\n";
+
     return 0;
 }
