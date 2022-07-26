@@ -1,0 +1,90 @@
+1.
+a:char actor[30];
+b:short betsie[100];
+c:float chuck[13];
+d:long double dipsea[64];
+
+2.
+#inclue <array>
+array<char, 30> actor;
+array<short, 100> betsie;
+array<float, 13> chuck;
+array<long double, 64>dipsea;
+
+3.
+int arr[5] = {1, 3, 5, 7, 9};
+
+4.
+int arr[5] = {1, 3, 5, 7, 9};
+int even = arr[0] + arr[4];
+
+5.
+float ideas[10];
+cout << "The second element of array is " << ideas[1] << endl;
+
+6.
+char str[] = "cheeseburger";
+
+7.
+string st = "Waldorf Salad";
+
+8.
+struct fish{
+    char kind[20];
+    int weight;
+    float length;
+};
+
+9.
+struct fish{
+    char kind[20];
+    int weight;
+    float length;
+};
+fish pet = {"BigFish", 12, 4.5};
+
+10.
+enum Response{No,Yes,Maybe};
+
+11.
+double ted = 0.1;
+double *pd = &ted;
+cout << "The ted = " << tep << endl;
+cout << "The ted = " << *pd << endl;
+
+12.
+float treacle[10];
+float *pt = treacle; // float *pt = &treacle[0];
+
+13.
+unsigned int size;
+cout << "Enter a number : " << endl;
+cin >> size;
+int *arr = new int[size];
+
+14.
+cout << (int *) "Home of the jolly bytes";
+强制转化为整形指针，于是就输出地址。
+
+15.
+struct fish{
+    char kind[20];
+    int weight;
+    float length;
+};
+fish *pt = new fish;
+cout << "Enter a number : " << endl;
+cin >> pt->kind;
+
+16.
+cin.getline(address,80)换成cin>>address
+不能识别出空格，字数没有了限制。
+
+17.
+#include <iostream>
+#include <vector>
+#include <array>
+using namespace std;
+const int size = 10;
+array<string, size> arst;
+vector<string> vest(size);
