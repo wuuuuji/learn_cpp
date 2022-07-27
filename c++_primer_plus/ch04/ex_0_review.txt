@@ -80,11 +80,12 @@ cin >> pt->kind;
 cin.getline(address,80)换成cin>>address
 不能识别出空格，字数没有了限制。
 
+cin >> address; // read from input until it comes a blank.
+
 17.
-#include <iostream>
+#include <string>
 #include <vector>
 #include <array>
-using namespace std;
 const int size = 10;
-array<string, size> arst;
-vector<string> vest(size);
+std::array<std::string, size> arst;
+std::vector<std::string> vest(size);
