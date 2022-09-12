@@ -29,12 +29,10 @@ int main()
     double sum = 0.0;
     int counts = 0;
 
-    inFile >> value;
-    while (inFile.good())
+    while (inFile >> value)
     {
         ++counts;
         sum += value;
-        inFile >> value;
     }
     if (inFile.eof())
         cout << "End of file reached.\n";
