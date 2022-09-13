@@ -34,11 +34,11 @@ int main()
         ++counts;
         sum += value;
     }
-    if (inFile.eof())
+    if (inFile.eof())   // 读到文件末尾
         cout << "End of file reached.\n";
-    else if (inFile.fail())
+    else if (inFile.fail())     // 读到错误的数据类型
         cout << "Input terminated by data mismatch.\n";
-    else
+    else    //
         cout << "Input terminated for unknown reason.\n";
 
     if (counts == 0)
