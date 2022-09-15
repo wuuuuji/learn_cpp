@@ -15,7 +15,7 @@ int main(){
         tax_calculate(input);
         cout << "Please enter your income:";
     }
-
+    cout << "Bye!" << endl;
     return 0;
 }
 
