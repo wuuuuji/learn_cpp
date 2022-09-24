@@ -79,3 +79,29 @@ int sum_arr(int arr[], int n)
 > 给 arr 的首地址加上 i 个与指针指向的类型长度(以字节为单位)相等的值。
 
 传递常规变量时，函数将使用该变量的拷贝; 但传递数组时，函数将使用原来的数组。
+
+>复习:  
+> ```c++
+> int n = 10;
+> int m = 40;
+> const int *pt = &n;
+> *pt = 20  // error
+> pt = &m   // true
+> cout << "*pt=" << pt << endl;
+>   ```
+> const 加在星号的前面，不可以修改指针指向的值，但是可以修改指向的变量。
+> `int const *pt = &n`这个写法也是一样的效果
+> ```c++
+> int n = 10;
+> int m = 40;
+> int *const pt = &n;
+> *pt = 20  // true
+> pt = &m   // error
+> cout << "*pt=" << pt << endl;
+> ```  
+> const 加在星号的后面，可以修改指向的变量，但是不可以修改指针指向的值。
+> ```c++
+> int n = 10;
+> const int *const pt = &n;
+> ```  
+> 此时只能指向唯一一个变量一个值。
