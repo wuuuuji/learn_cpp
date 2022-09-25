@@ -80,28 +80,41 @@ int sum_arr(int arr[], int n)
 
 传递常规变量时，函数将使用该变量的拷贝; 但传递数组时，函数将使用原来的数组。
 
->复习:  
-> ```c++
-> int n = 10;
-> int m = 40;
-> const int *pt = &n;
-> *pt = 20  // error
-> pt = &m   // true
-> cout << "*pt=" << pt << endl;
->   ```
-> const 加在星号的前面，不可以修改指针指向的值，但是可以修改指向的变量。
-> `int const *pt = &n`这个写法也是一样的效果
-> ```c++
-> int n = 10;
-> int m = 40;
-> int *const pt = &n;
-> *pt = 20  // true
-> pt = &m   // error
-> cout << "*pt=" << pt << endl;
-> ```  
-> const 加在星号的后面，可以修改指向的变量，但是不可以修改指针指向的值。
-> ```c++
-> int n = 10;
-> const int *const pt = &n;
-> ```  
-> 此时只能指向唯一一个变量一个值。
+## 指针和const
+
+  
+```c++
+int n = 10;
+int m = 40;
+const int *pt = &n;
+*pt = 20    // error
+pt = &m     // true
+cout << "*pt=" << pt << endl;
+```
+const 加在星号的前面，不可以修改指针指向的值，但是可以修改指向的变量。但是可以通过修改n的值来进行改变。
+`int const *pt = &n`这个写法也是一样的效果
+```c++
+int n = 10;
+int m = 40;
+int *const pt = &n;
+*pt = 20  // true
+pt = &m   // error
+cout << "*pt=" << pt << endl;
+```  
+const 加在星号的后面，可以修改指向的变量，但是不可以修改指针指向的值。
+```c++
+int n = 10;
+const int *const pt = &n;
+```  
+此时只能指向唯一一个变量一个值。
+
+注意，c++禁止将 const 的地址赋给非 const 的指针。  
+如果数据类型本身并不是指针（如数组），则可以将 const 数据或非 const 数据的的地址赋给指向 const 的指针，但只能将非 const 数据的地址赋给非 const 指针。
+
+## 函数和二维数组
+
+```c++
+int sum(int (*arr2) [4], int size);
+int sum(int arr2 [] [4], int size);
+```
+其中（*arr2）中的括号是必不可少的。因为声明的是一个由4个指向int的指针组成的数组，而不是由一个由4个int组成的数组的指针。  
