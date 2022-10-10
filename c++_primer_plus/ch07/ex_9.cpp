@@ -60,15 +60,23 @@ int getinfo(student pa[], int n)
 
 void display1 (student st)
 {
-
+    cout << "Student Name: " << st.fullname << endl;
+    cout << "Student hobby: " << st.hobby << endl;
+    cout << "Student level: " << st.ooplevel << endl << endl;
 }
 
 void display2 (const student *ps)
 {
-
+    cout << "Student Name: " << ps->fullname << endl;
+    cout << "Student hobby: " << ps->hobby << endl;
+    cout << "Student level: " << ps->ooplevel << endl << endl;
 }
 
 void display3 (const student pa[], int n)
 {
-
+    for (int i = 0; i < n; i++) {
+        cout << "Student Name: " << pa[i].fullname << endl;
+        cout << "Student hobby: " << pa[i].hobby << endl;
+        cout << "Student level: " << pa[i].ooplevel << endl << endl;
+    }
 }
