@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-#include<string>
 
 using namespace std;
 const int Seasons = 4;
