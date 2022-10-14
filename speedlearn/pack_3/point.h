@@ -2,15 +2,23 @@
 // Created by 84019 on 2022/10/14.
 //
 
-#ifndef SPEEDLEARN_POINT_H
-#define SPEEDLEARN_POINT_H
+#pragma once
+#include <iostream>
 
+using namespace std;
 
+class Point
+{
+public:
+    void setX(int x);
 
-class point {
+    int getX();
 
+    void setY(int y);
+
+    int getY();
+
+private:
+    int m_X;
+    int m_Y;
 };
-
-
-
-#endif //SPEEDLEARN_POINT_H
