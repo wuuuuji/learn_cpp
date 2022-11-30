@@ -12,6 +12,7 @@ using namespace std;
 
 void LoginIn(string fileName, int type);    // 登录菜单
 void managerMenu(Identity * &manager);  // 管理员子菜单
+void studentMenu(Identity * &student);  // 学生子菜单
 
 
 int main() {
@@ -110,7 +111,7 @@ void LoginIn(string fileName, int type)
         int fId;    // 从文件中读取的id号
         string fName;
         string fPwd;
-        while (ifs >> fId && ifs >> fName && ifs >> fileName)
+        while (ifs >> fId && ifs >> fName && ifs >> fPwd)
         {
             if (id == fId && name == fName && pwd == fPwd)
             {
@@ -120,6 +121,7 @@ void LoginIn(string fileName, int type)
                 person = new Student(id, name, pwd);
 
                 // 进入子菜单
+                studentMenu(person);
 
                 return;
             }
@@ -203,6 +205,45 @@ void managerMenu(Identity * &manager)
         else
         {
             delete manager;
+            cout << "注销成功" << endl;
+            system("pause");
+            system("cls");
+            return;
+        }
+    }
+}
+
+void studentMenu(Identity * &student)
+{
+    while (true)
+    {
+        // 调用学生子菜单
+        student->operMenu();
+
+        Student * stu = (Student *) student;
+
+        int select = 0;
+        cin >> select;
+
+        if (select == 1) //申请预约
+        {
+            stu->applyOrder();
+        }
+        else if (select == 2) //查看自身预约
+        {
+            stu->showMyOrder();
+        }
+        else if (select == 3) //查看所有预约
+        {
+            stu->showAllOrder();
+        }
+        else if (select == 4) //取消预约
+        {
+            stu->cancelOrder();
+        }
+        else
+        {
+            delete student;
             cout << "注销成功" << endl;
             system("pause");
             system("cls");
