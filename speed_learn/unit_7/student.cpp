@@ -247,7 +247,24 @@ void Student::cancelOrder()
 
         if (select >= 0 && select <= v.size())
         {
+            if (select == 0)
+            {
+                break;
+            }
+            else
+            {
+                of.m_orderData[v[select-1]]["status"] = "0";
 
+                of.updateOrder();
+
+                cout << "已取消预约" << endl;
+                break;
+            }
         }
+
+        cout << "输入有误，请重新输入" << endl;
     }
+
+    system("pause");
+    system("cls");
 }

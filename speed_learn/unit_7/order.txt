@@ -1,3 +1,4 @@
 date:1 interval:2 stuId:1 stuName:zhangsan roomId:3 status:1
 date:2 interval:2 stuId:1 stuName:zhangsan roomId:1 status:1
 date:4 interval:1 stuId:2 stuName:lisi roomId:2 status:1
+date:1 interval:2 stuId:1 stuName:zhangsan roomId:3 status:0

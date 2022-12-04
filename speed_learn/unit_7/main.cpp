@@ -13,6 +13,8 @@ using namespace std;
 void LoginIn(string fileName, int type);    // 登录菜单
 void managerMenu(Identity * &manager);  // 管理员子菜单
 void studentMenu(Identity * &student);  // 学生子菜单
+void teacherMenu(Identity * &tea);      // 教师子菜单
+
 
 
 int main() {
@@ -131,7 +133,7 @@ void LoginIn(string fileName, int type)
         int fId;    // 从文件中读取的id号
         string fName;
         string fPwd;
-        while (ifs >> fId && ifs >> fName && ifs >> fileName)
+        while (ifs >> fId && ifs >> fName && ifs >> fPwd)
         {
             if (id == fId && name == fName && pwd == fPwd)
             {
@@ -141,6 +143,7 @@ void LoginIn(string fileName, int type)
                 person = new Teacher(id,name,pwd);
 
                 // 进入子菜单
+                teacherMenu(person);
 
                 return;
             }
@@ -249,5 +252,37 @@ void studentMenu(Identity * &student)
             system("cls");
             return;
         }
+    }
+}
+
+// 进入教师子菜单界面
+void teacherMenu(Identity * &teacher)
+{
+    while (true)
+    {
+        teacher->operMenu();
+
+        Teacher * tea = (Teacher*) teacher;
+
+        int select = 0;
+
+        cin >> select;
+        if (select == 1) //查看所有预约
+        {
+            tea->showAllOrder();
+        }
+        else if (select == 2) //审核预约
+        {
+            tea->validOrder();
+        }
+        else
+        {
+            delete teacher;
+            cout << "注销成功" << endl;
+            system("pause");
+            system("cls");
+            return;
+        }
+
     }
 }
